@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "title" : "Study",
+    "version" : "0.0.1",
+    "baseUri" : "http://marklogic.com/ml-semantics/study",
+    "description" : "main entity"
+  },
+  "definitions" : {
+    "Study" : {
+      "required" : [ ],
+      "elementRangeIndex" : [ ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "Id" : {
+          "datatype" : "string",
+          "description" : "study",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        }
+      }
+    }
+  }
+}
